@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 24%);
+    color: white;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 0 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    display: inline;
+    padding: 0 5px;
+    text-transform: uppercase;
+}   
+
+main{
+    width: 75%;
+    margin: 0 auto;
+}
+
+section{
+    margin-top: 100px;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+}
