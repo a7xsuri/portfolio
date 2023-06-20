@@ -45,3 +45,9 @@ footer{
 footer a{
     color: white;
 }
+
+@media only screen and (max-width: 476px){
+   li{
+    line-height: 1.5;
+   }
+}
